@@ -16,6 +16,14 @@ Symbols for the game:
     SHIP = "s"
     OCEAN = "-"
 ------------------
+Ship list with length:
+------------------
+    Battleship 5
+    Aircraft carrier 4
+    Destroyer 3
+    Submarine 2
+
+------------------
 
 1. Start any preferred command prompt
 2. Read and learn the layout this is mostly how the game will look with the 2 boards and instructions
