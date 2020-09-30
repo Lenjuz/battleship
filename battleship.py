@@ -402,6 +402,7 @@ def win_condition():
     if computer_life <= 0:
         current_player = "Player"
         print(f'{current_player} has WON! and it only took {player_attempts - 1} shots!\n')
+	input("Press enter to close program thank you for playing!")
 
         filename = 'victorylog.txt'
         with open('victorylog.txt', 'a+') as f:
@@ -412,6 +413,7 @@ def win_condition():
     elif player_life <= 0:
         current_player = "Computer"
         print(f'{current_player} has WON! and it only took {computer_attempts - 1} shots!\n')
+	input("Press enter to close program thank you for playing!")
 
         filename = 'victorylog.txt'
         with open('victorylog.txt', 'a+') as f:
